@@ -8,32 +8,34 @@ body{
   font-family: 'Encode Sans Expanded', sans-serif;
   color: white;
 }
-.mainwrapper{
-  width: 100vw;
-  height: 400px;
+h1{
+
 }
-.leftbox{
-  float: left;
-  width: 40%;
-  margin-left: 10%;
+.header{
+
+}
+.content{
+  background-color: white;
+  color: black;
   text-align: center;
+  height: 100vh;
+  font-size: 20px;
 }
-.rightbox{
-  float: left;
-  width: 40%;
+.heading{
+  text-align: center;
+  margin-top: 10vh;
 }
 .image{
-  padding-top: 40px;
-  margin: 0;
-}
-#avatar{
   height: 200px;
   width: 200px;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  border-radius: 100%;
 }
-a{
-  color: white;
+.icon{
+  margin-top: 25vh;
+  margin-bottom: 5vh;
+}
+.pr_template{
+  margin-top: 2vh;
+  width: 180px;
+  height: 100px;
 }
