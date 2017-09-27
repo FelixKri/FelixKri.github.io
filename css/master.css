@@ -20,6 +20,7 @@ h1{
   text-align: center;
   height: 100vh;
   font-size: 20px;
+  padding-top: 10vh;
 }
 .heading{
   text-align: center;
@@ -43,3 +44,10 @@ h1{
 .pr_col{
 
 }
+
+@media (max-width: 40em) {
+ .pr_template{
+    visibility:hidden;
+    height: 1px;
+    width: 1px;
+  }
