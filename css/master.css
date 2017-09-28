@@ -13,6 +13,7 @@ h1{
 }
 p{
   display: block;
+  margin-top: 2vh;
 }
 .header{
   height: 100vh;
@@ -70,5 +71,18 @@ p{
     height: 64px;
     width: 64px;
     margin-top: 15vh;
+  }
+}
+
+@media (max-width: 320px){
+  h1{
+    font-size: 20px;
+  }
+  p{
+    margin-top: -15px;
+    font-size: 10px;
+  }
+  #ds{
+    margin-top: 2vh;
   }
 }
