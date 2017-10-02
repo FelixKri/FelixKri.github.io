@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("p").click(function(){
-      $("p").hide();
+    $(".icon").click(function(){
+      $("html, body").animate({ scrollTop: $(document).height() }, 1000);
     });
 });
