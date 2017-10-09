@@ -38,6 +38,7 @@ p{
 .icon{
   margin-top: 20vh;
   margin-bottom: 5vh;
+  cursor: pointer; cursor: hand;
 }
 .pr_template{
   margin-top: 2vh;
